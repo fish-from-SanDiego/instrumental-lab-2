@@ -8,7 +8,7 @@ int main() {
         q.push(i);
     }
     for (int i = 0; i < 10; i++) {
-        int t = q.front();
+        int t = q.front() + 1;
         q.pop();
         std::cout << t << ' ';
     }
